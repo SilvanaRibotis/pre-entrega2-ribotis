@@ -1,0 +1,26 @@
+header{
+    nav{
+        position: fixed;
+        top: 0;
+        background-color: $color-fondo;
+        font-family: nth($tipografias, 2 );
+        font-weight: nth($weight, 1 );
+        font-size: nth($tamanio-letras, 3 );
+        width: map-get($iconos, ancho);
+        overflow-x: hidden;
+        width: 100%;
+
+    img{
+        margin: 10px;
+        border-radius: 50%;
+    }
+    ul{
+        li{
+            display: inline-block;
+            text-align: center;
+            margin-left: 40px;
+            padding: 0%;
+        }
+    }
+    }
+}

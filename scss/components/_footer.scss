@@ -1,0 +1,22 @@
+footer{
+    background-color: $color-fondo; 
+    width: map-get($iconos , ancho);
+    height: map-get($iconos , alto);
+    
+    ul{
+        display: flex;
+        justify-content: map-get($iconos, contenido );
+        li{
+            display: inline;
+            font-size: nth($tamanio-letras , 2 );
+            align-items: center;
+        }
+    }
+    p{
+        font-size: nth($tamanio-letras , 3 );
+        text-align: center;
+        font-family: nth($tipografias , 2 ); 
+        font-weight: nth($weight , 2 ); 
+        margin: 10px;
+    }
+}
